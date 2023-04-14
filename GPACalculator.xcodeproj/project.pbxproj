@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDC2ED129E669D0005A97E8 /* GPACalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2ED029E669D0005A97E8 /* GPACalculator.swift */; };
+		2CDC2ED329E66D3F005A97E8 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2ED229E66D3F005A97E8 /* ClassModel.swift */; };
+		2CDC2ED529E66D52005A97E8 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2ED429E66D52005A97E8 /* Assignment.swift */; };
+		2CDC2ED729E66E08005A97E8 /* AddClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2ED629E66E08005A97E8 /* AddClassView.swift */; };
+		2CDC2ED929E67123005A97E8 /* SelectClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2ED829E67123005A97E8 /* SelectClassView.swift */; };
+		2CDC2EDB29E67173005A97E8 /* ClassDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2EDA29E67173005A97E8 /* ClassDetailView.swift */; };
+		2CDC2EDD29E671CD005A97E8 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2EDC29E671CD005A97E8 /* AddAssignmentView.swift */; };
+		2CDC2EDF29E675D8005A97E8 /* CalculateTargetGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC2EDE29E675D8005A97E8 /* CalculateTargetGradeView.swift */; };
 		2CE74A0329CA7B4B00C98668 /* GPACalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE74A0229CA7B4B00C98668 /* GPACalculatorApp.swift */; };
 		2CE74A0529CA7B4B00C98668 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE74A0429CA7B4B00C98668 /* ContentView.swift */; };
 		2CE74A0729CA7B4E00C98668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE74A0629CA7B4E00C98668 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CDC2ED029E669D0005A97E8 /* GPACalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACalculator.swift; sourceTree = "<group>"; };
+		2CDC2ED229E66D3F005A97E8 /* ClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
+		2CDC2ED429E66D52005A97E8 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		2CDC2ED629E66E08005A97E8 /* AddClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassView.swift; sourceTree = "<group>"; };
+		2CDC2ED829E67123005A97E8 /* SelectClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectClassView.swift; sourceTree = "<group>"; };
+		2CDC2EDA29E67173005A97E8 /* ClassDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassDetailView.swift; sourceTree = "<group>"; };
+		2CDC2EDC29E671CD005A97E8 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
+		2CDC2EDE29E675D8005A97E8 /* CalculateTargetGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateTargetGradeView.swift; sourceTree = "<group>"; };
 		2CE749FF29CA7B4B00C98668 /* GPACalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPACalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE74A0229CA7B4B00C98668 /* GPACalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACalculatorApp.swift; sourceTree = "<group>"; };
 		2CE74A0429CA7B4B00C98668 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +69,15 @@
 			children = (
 				2CE74A0229CA7B4B00C98668 /* GPACalculatorApp.swift */,
 				2CE74A0429CA7B4B00C98668 /* ContentView.swift */,
+				2CDC2EDA29E67173005A97E8 /* ClassDetailView.swift */,
+				2CDC2EDE29E675D8005A97E8 /* CalculateTargetGradeView.swift */,
+				2CDC2ED829E67123005A97E8 /* SelectClassView.swift */,
+				2CDC2EDC29E671CD005A97E8 /* AddAssignmentView.swift */,
 				2CE74A0629CA7B4E00C98668 /* Assets.xcassets */,
+				2CDC2ED029E669D0005A97E8 /* GPACalculator.swift */,
+				2CDC2ED629E66E08005A97E8 /* AddClassView.swift */,
+				2CDC2ED229E66D3F005A97E8 /* ClassModel.swift */,
+				2CDC2ED429E66D52005A97E8 /* Assignment.swift */,
 				2CE74A0829CA7B4E00C98668 /* Preview Content */,
 			);
 			path = GPACalculator;
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDC2ED929E67123005A97E8 /* SelectClassView.swift in Sources */,
 				2CE74A0529CA7B4B00C98668 /* ContentView.swift in Sources */,
+				2CDC2ED729E66E08005A97E8 /* AddClassView.swift in Sources */,
 				2CE74A0329CA7B4B00C98668 /* GPACalculatorApp.swift in Sources */,
+				2CDC2EDF29E675D8005A97E8 /* CalculateTargetGradeView.swift in Sources */,
+				2CDC2EDB29E67173005A97E8 /* ClassDetailView.swift in Sources */,
+				2CDC2ED329E66D3F005A97E8 /* ClassModel.swift in Sources */,
+				2CDC2EDD29E671CD005A97E8 /* AddAssignmentView.swift in Sources */,
+				2CDC2ED529E66D52005A97E8 /* Assignment.swift in Sources */,
+				2CDC2ED129E669D0005A97E8 /* GPACalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
